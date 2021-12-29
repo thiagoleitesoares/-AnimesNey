@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(fundo.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+main{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+.titulo-foda {
+    font-weight: bold;
+    font-size: bold;
+    background-color: darkblue ;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+h2{
+    color: white;
+    background-color: rgba(151, 6, 6, 0.33);
+    border-radius: 10px ;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+.lista {
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    color: white;
+    width: 100px;
+    font-size: 22px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 15px;
+    padding: 4px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+.titulo-anime{
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 1rem;
+}
+.card{
+    width: 20%;
+    max-height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+img{
+    padding-top: 10px;
+}
+.titulo-anime{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    color: black;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+h5{
+    color: grey;
+    background-color: orange;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 2px;
+    margin-top: 4px;
+    transition-duration: 0.5s;
+}
+h5:hover{
+    background-color: rgb(114, 63, 0);
+    cursor: pointer;
+    color: white;
+}
+h5:active{
+    background-color: black;
+    transition-duration: 0s;
+}
+footer{
+  text-align: center;
+  color: white;
+  font-size: 22px;
+
+}
+#anime1{
+    background-image: url(anime1.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+#anime2{
+    background-image: url(anime2.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    cursor: pointer;
+}
+#anime3{
+    background-image: url(anime3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    cursor: pointer;
+}
+#anime4{
+    background-image: url(anime4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    cursor: pointer;
+}
+#anime5{
+    background-image: url(anime5.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    cursor: pointer;
+}
+#anime6{
+    background-image: url(anime6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    cursor: pointer;
+}
+#anime7{
+    background-image: url(anime7.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    cursor: pointer;
+}
+#anime8{
+    background-image: url(anime8.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    cursor: pointer;
+}
+#anime9{
+    background-image: url(anime9.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    cursor: pointer;
+}
+#anime10{
+    background-image: url(anime10.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    cursor: pointer;
+}
+#anime11{
+    background-image: url(anime11.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    cursor: pointer;
+}
+#anime12{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    cursor: pointer;
+}
